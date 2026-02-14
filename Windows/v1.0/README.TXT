@@ -11,7 +11,7 @@ Even if the GL buffer is cleared, if the device and rendering context are redefi
 
 I decided to create a dynamically allocated buffer, like a list or a C++ vector, to store, step by step, all changes made to the GL buffer. And I created this resource.
 
-The way how MyGL works is, every supported GL function is written on a heap buffer as an entry. Entries are structs that define the type of function, the type of data, the size and parameters used.
+The way how MyGL works is, every GL function (supported by this lib) is written on a heap buffer as an entry. Entries are structs that define the type of function, the type of data, the size and parameters used.
 
 This resource so far supports basic resources:
 set GL color
@@ -32,4 +32,5 @@ There are probably easier and more efficient ways to implement this resource, wa
 
 Author: Rafael Sabe
 Email: rafaelmsabe@gmail.com
+
 
