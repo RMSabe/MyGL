@@ -2,7 +2,7 @@
 	MyGL: Win32 OpenGL auxiliary resource
 
 	This code uses my custom WinLib version 4.0
-	GitHub Repository: https://github.com/RMSabe/WinLib/v4.0
+	GitHub Repository: https://github.com/RMSabe/WinLib/tree/main/v4.0
 
 	Author: Rafael Sabe
 	Email: rafaelmsabe@gmail.com
@@ -912,3 +912,4 @@ LONG_PTR WINAPI MyGL::buffer_get_byteindex_from_entryindex(ULONG_PTR index)
 
 	return (LONG_PTR) byte_index;
 }
+
