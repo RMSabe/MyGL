@@ -2,7 +2,7 @@ MyGL: Win32 OpenGL auxiliary resource
 Version 1.0
 
 This resource uses my custom WinLib version 4.0
-GitHub Repository: https://github.com/RMSabe/WinLib/v4.0
+GitHub Repository: https://github.com/RMSabe/WinLib/tree/main/v4.0
 
 Description:
 I was working on an application for plotting graphics, more specifically math functions.
@@ -32,3 +32,4 @@ There are probably easier and more efficient ways to implement this resource, wa
 
 Author: Rafael Sabe
 Email: rafaelmsabe@gmail.com
+
